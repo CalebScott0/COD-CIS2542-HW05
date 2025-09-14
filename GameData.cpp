@@ -46,3 +46,4 @@ bool GameData::CanMarioGoToCoronaMountain() const
 {
     return (countShines >= 50);
 }
+
