@@ -3,22 +3,21 @@
 
 class GameData
 {
-    public:
-        GameData();
+public:
+    GameData();
 
-        int GetBlueCoins() const;
-        int GetShines() const;
+    int GetBlueCoins() const;
+    int GetShines() const;
 
-        void AddBlueCoins(int blueCoins);
-        void AddShines(int shines);
+    void AddBlueCoins(int blueCoins);
+    void AddShines(int shines);
 
-        bool CanMarioGoToCoronaMountain() const;
-        void ConvertBlueCoinsToShines();
+    bool CanMarioGoToCoronaMountain() const;
+    void ConvertBlueCoinsToShines();
 
-    private:
-        int countShines;
-        int countBlueCoins;
-
+private:
+    int countShines;
+    int countBlueCoins;
 };
 
 #endif
